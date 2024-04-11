@@ -1,0 +1,42 @@
+[
+  {
+      "name": "gender",
+      "description": "genero"
+  },
+  {
+      "name": "age",
+      "description": "idade"
+  },
+  {
+      "name": "hypertension",
+      "description": "hipertensão"
+  },
+  {
+      "name": "heart_disease",
+      "description": "problema de coração"
+  },
+  {
+      "name": "smoking_history",
+      "description": "fumante"
+  },
+  {
+      "name": "bmi",
+      "description": "indice de massa corporal"
+  },
+  {
+      "name": "diabetes",
+      "description": "diabetes"
+  },
+  {
+      "name": "carbohydrates",
+      "description": "grams de carboidratos ingeridos"
+  },
+  {
+      "name": "fast",
+      "description": "jejum"
+  },
+  {
+      "name": "glucose_level",
+      "description": "glicose hipo=0, normal=1, hiper=2"
+  }
+]

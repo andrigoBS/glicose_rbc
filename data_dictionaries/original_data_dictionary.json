@@ -1,0 +1,50 @@
+[
+  {
+      "name": "gender",
+      "description": "genero",
+      "types": [
+        "Female",
+        "Male"
+      ]
+  },
+  {
+      "name": "age",
+      "description": "idade"
+  },
+  {
+      "name": "hypertension",
+      "description": "hipertensão"
+  },
+  {
+      "name": "heart_disease",
+      "description": "problema de coração"
+  },
+  {
+      "name": "smoking_history",
+      "description": "fumante",
+      "types": [
+        "No Info",
+        "never",
+        "former",
+        "not current",
+        "current",
+        "ever"
+      ]
+  },
+  {
+      "name": "bmi",
+      "description": "massa corporal"
+  },
+  {
+      "name": "HbA1c_level",
+      "description": "O nível de HbA1c (hemoglobina A1c) é uma medida do nível médio de açúcar no sangue de uma pessoa nos últimos 2-3 meses"
+  },
+  {
+      "name": "glucose_level",
+      "description": "glicose numerica"
+  },
+  {
+      "name": "diabetes",
+      "description": "diabetes"
+  }
+]
