@@ -19,6 +19,12 @@ class Preprocess:
         self.original_dictionary = json.loads(file)
         return self
 
+    def save_preprocess(self, filename):
+        file_out = open(filename, 'w')
+        csv.writer(file_out, lineterminator='\n').writerows(self.data)
+        file_out.close()
+        return self
+
     def to_index_types(self):
         new_data = []
         for row in self.data:
@@ -48,12 +54,6 @@ class Preprocess:
             row.append(float(fast))
             row.append(float(carbohydrates))
             row.append(float(glucose_level))
-        return self
-
-    def save_preprocess(self, filename):
-        file_out = open(filename, 'w')
-        csv.writer(file_out, lineterminator='\n').writerows(self.data)
-        file_out.close()
         return self
 
     def __get_fast_value_from_row(self, glucose, diabetes):
