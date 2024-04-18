@@ -6,7 +6,7 @@ from DataDTO import DataDTO
 class Model:
     def __init__(self):
         self.data = None
-        self.weights = [1, 1, 2, 2, 2, 4, 7, 6, 5]
+        self.weights = [1, 1, 2, 2, 2, 3, 6, 5, 4]
 
     def load_data(self, filename):
         csvfile = open(filename, newline='')
