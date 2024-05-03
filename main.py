@@ -8,7 +8,7 @@ class Main:
         self.model = Model().load_data(filename)
         self.log = log
 
-    def run(self, data_dto: DataDTO, trust=80):
+    def run(self, data_dto: DataDTO, trust=70):
         predicted_case, error, similarity = self.model.predict(data_dto)
 
         predicted_glucose = int(float(predicted_case[len(predicted_case) - 1]))
